@@ -1,10 +1,10 @@
-#Forensic Toolkit
+# Forensic Toolkit
 
 Located below is a toolkit of sorts; a list of several useful forensic tools that could be used on a daily basis. 
 
 
-### Table of Contents
-=================
+## Table of Contents
+
 
   * [Network Capture](#NetworkCapture)
     * [WinPcap](#WinPcap)
@@ -13,13 +13,13 @@ Located below is a toolkit of sorts; a list of several useful forensic tools tha
 
 
 
-  # <a name="NetworkCapture"></a>Network Capture
+  ## <a name="NetworkCapture"></a>Network Capture
   Here is a list of common network capture tools:
 
-  ## <a name="WinPcap"></a>WinPCap
+  ### <a name="WinPcap"></a>WinPCap
   WinPcap
 
-  ## <a name="Wireshark"></a>Wireshark
+  ### <a name="Wireshark"></a>Wireshark
   Wireshark
 
-  # <a name="HostAcquisition"></a>Host Acquisition 
+  ## <a name="HostAcquisition"></a>Host Acquisition 
