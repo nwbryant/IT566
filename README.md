@@ -5,7 +5,7 @@ Located below is a toolkit of sorts; a list of several useful forensic tools tha
 
 ## Table of Contents
 
-```
+
   * [Network Capture and Analysis](#NetworkCapture)
     * [WinPcap](#WinPcap)
     * [Wireshark](#Wireshark)
@@ -17,7 +17,7 @@ Located below is a toolkit of sorts; a list of several useful forensic tools tha
   * [Analyzing Memory](#storageAnalyzation)
     * []
   * [Analyzing Malware](#malAnalyzation)
-```
+
  ## <a name="NetworkCapture"></a>Network Capture and Analysis
   Here is a list of common network capture tools:
 
