@@ -86,7 +86,7 @@ Located below is a toolkit with several useful forensic tools that could be used
 
 
 FTK Imager can be used for many imaging tasks including capturing the memory of a system, and the hard drive of a system. 
-To capture memory, select File then Capture Memory, and select where you want the file to be stored. 
+To capture memory, select File then Capture Memory, and select where you want the file to be stored. For capturing the physical drive, click File and Create Disk Image. This will open a window where the analyst needs to select the media source. In this case, the analyst will select Physical Drive so that the entire drive including the master boot record will be captured for further analysis.
 
 
  [FTK Imager Download](https://accessdata.com/product-download/ftk-imager-version-4.2.0 "FTK Imager Download")
