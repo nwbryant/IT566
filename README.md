@@ -7,18 +7,18 @@ Located below is a toolkit of sorts; a list of several useful forensic tools tha
 
 
   * [Network Capture and Analysis](#NetworkCapture)
-   * [WinPcap](#WinPcap)
-   * [Wireshark](#Wireshark)
+    * [WinPcap](#WinPcap)
+    * [Wireshark](#Wireshark)
   * [Memory Capture](memCapture)
-   * [LiME](#lime)
-   * [Rekall](#rekall)
+    * [LiME](#lime)
+    * [Rekall](#rekall)
   * [Host Acquisition](#HostAcquisition)
-   * [FTK Imager](#FTKI)
+    * [FTK Imager](#FTKI)
   * [Analyzing Storage](#storageAnalyzation)
-   * [Autopsy](#Autopsy)
-   * [FTK](#FTK)
+    * [Autopsy](#Autopsy)
+    * [FTK](#FTK)
   * [Analyzing Memory](#storageAnalyzation)
-   * [Volatility](#Volatility)
+    * [Volatility](#Volatility)
   * [Analyzing Malware](#malAnalyzation)
 
  ## <a name="NetworkCapture"></a>Network Capture and Analysis
