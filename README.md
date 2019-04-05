@@ -19,6 +19,8 @@ Located below is a toolkit with several useful forensic tools that could be used
   * [Analyzing Storage](#storageAnalyzation)
     * [Autopsy](#Autopsy)
     * [FTK](#FTK)
+    * [WinPrefetchView](#winprefetch)
+    * [EventViewer](#eventView)
   * [Analyzing Memory](#storageAnalyzation)
     * [Volatility](#Volatility)
     * [Rekall](#rekall)
@@ -75,6 +77,7 @@ Located below is a toolkit with several useful forensic tools that could be used
   ### <a name="netcat"></a>Netcat
   
   
+  Netcat allows you to transfer files over TCP or UDP. THis can be used to move memory file from a linux machine to a windows machine for analysis, or any number of other uses. This [guide](https://www.digitalocean.com/community/tutorials/how-to-use-netcat-to-establish-and-test-tcp-and-udp-connections-on-a-vps) can help you understand how to use it. 
   
   [Netcat Download](http://netcat.sourceforge.net/download.php "Netcat Download")
 
@@ -98,12 +101,16 @@ To capture memory, select File then Capture Memory, and select where you want th
 ### <a name="FTK"></a>FTK
 
 
+FTK, like Autopsy, allows you to sort through the files acquired from the machine that needed to be analyzed. it allows you to look through all the files stored on a hard drive and figure out what happened, when it happened and how it happened without messing with the hash of the drive. It lists the files in a visible way, making it much easier to sort through them. It also allows you to extract the files to be analyzed using WinPrefetch View, Volatility, Event Viewer, and other analysis tools.
 
 
  [FTK Download](https://accessdata.com/product-download "FTK Download")
  
  
  ### <a name="Autopsy"></a>Autopsy
+ 
+  
+Autopsy, like FTK, allows you to sort through the files acquired from the machine that needed to be analyzed. it allows you to look through all the files stored on a hard drive and figure out what happened, when it happened and how it happened without messing with the hash of the drive. It lists the files in a visible way, making it much easier to sort through them. It also allows you to extract the files to be analyzed using WinPrefetch View, Volatility, Event Viewer, and other analysis tools.
  
  
  [Autopsy Download](https://www.sleuthkit.org/autopsy/ "Autopsy Download")
@@ -112,7 +119,16 @@ To capture memory, select File then Capture Memory, and select where you want th
  ### <a name="winprefetch"></a>WinPrefetchView
  
  
+ WinPrefetchView is a ghetto looking, but great tool to analyze prefetch files pulle dout by FTK or Autopsy. To load in the Prefetch files, click, options, advanced options, then select where the prefetch files are stored. this [guide](https://www.forensicmag.com/article/2010/12/decoding-prefetch-files-forensic-purposes-part-1) has some good information on prefetch files and what to look for.
+ 
+ 
  [WinPRefetchView 64bit Download](https://www.nirsoft.net/utils/winprefetchview-x64.zip "WinPrefetchViewDownload")
+ 
+ 
+ ### <a name= "eventView"></a>Event Viewer
+ 
+ 
+ Event Viewer is a great tool to analyze event logs extracted by FTK or Autopsy. you can load in event files and look through those on an analysis machine, without bothering the hash of the acquired harddrive. This is a Windows utility and not downloadable. search "Event Viewer" in the start menu to access.
  
  
 ## <a name="memAnalyzation"></a>Analyzing Memory 
@@ -121,7 +137,7 @@ To capture memory, select File then Capture Memory, and select where you want th
  ### <a name="volatility"></a>Volatility
  
  
- Volatility is a memory analysis tool. 
+ Volatility is a memory analysis tool. That lets you analyze the memory acquired form a machine that needs to be analyzed. These [instructions](https://www.howtoforge.com/tutorial/how-to-install-and-use-volatility-memory-forensic-tool/) will help you understand how to install and run it.
  
  
  [Volatility Download](https://www.volatilityfoundation.org/releases "Volatility Download")
@@ -130,7 +146,7 @@ To capture memory, select File then Capture Memory, and select where you want th
   ### <a name="rekall"></a> Rekall
 
 
-Rekall is a memory analysistool 
+Rekall is a memory analysis tool similar to Volatility. This [guide](https://holdmybeersecurity.com/2017/07/29/rekall-memory-analysis-framework-for-windows-linux-and-mac-osx/) will help you use it. 
 
 
  [Rekall Download](http://www.rekall-forensic.com/releases "Rekall Download")
